@@ -49,6 +49,11 @@ export interface ProjectItem {
   metricsContext?: string;
 }
 
+import portraitImage from '../assets/images/rajiv_kumar_portrait_1793114113158.jpg';
+import projectAiIndex from '../assets/images/project_ai_index_1793114114434.jpg';
+import projectSeoGeo from '../assets/images/project_seo_geo_1793114114806.jpg';
+import projectAiWebsites from '../assets/images/project_ai_websites_1793114114479.jpg';
+
 export const PORTFOLIO_DATA = {
   personal: {
     name: 'Rajiv Kumar H N',
@@ -56,7 +61,7 @@ export const PORTFOLIO_DATA = {
     subheadline: 'SEO | GEO | AEO | AI-Driven Lead Generation',
     statement:
       'I explore the intersection of artificial intelligence, search visibility, and digital marketing to help brands build a stronger online presence.',
-    portraitImage: '/src/assets/images/rajiv_kumar_portrait_1793114113158.jpg',
+    portraitImage,
     aboutParagraphs: [
       "Hello, I'm Rajiv Kumar H N, an AI research and marketing professional interested in artificial intelligence, search optimization, and digital growth. My interests include SEO, Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), AI-assisted content strategies, and lead generation.",
       'I enjoy exploring emerging technologies, developing digital projects, and finding practical ways to improve online visibility and user experiences.',
@@ -188,7 +193,7 @@ export const PORTFOLIO_DATA = {
       fullDescription:
         'The AI Index Survey is an empirical initiative analyzing how educational institutions evaluate, adopt, and deploy artificial intelligence. The research assesses infrastructure maturity, educator sentiment, curriculum integration barriers, and ethical AI policies, providing actionable guidance for modern academic decision-makers.',
       skills: ['AI Research', 'Empirical Survey Design', 'Data Analysis', 'Academic Technology'],
-      image: '/src/assets/images/project_ai_index_1793114114434.jpg',
+      image: projectAiIndex,
       highlights: [
         'Survey methodology designed to capture multi-stakeholder institutional perspectives',
         'In-depth analysis of AI readiness factors, budget allocation, and faculty enablement',
@@ -205,7 +210,7 @@ export const PORTFOLIO_DATA = {
       fullDescription:
         'With generative search engines (like Perplexity, Google Gemini Overviews, and ChatGPT Search) reshaping how people seek information, this research breaks down the transition from keyword-based SEO to entity-based Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO). It provides a concrete blueprint for brands to secure AI citations and authoritative answer placement.',
       skills: ['Generative Engine Optimization', 'Answer Engine Optimization', 'Semantic Search', 'Knowledge Graphs'],
-      image: '/src/assets/images/project_seo_geo_1793114114806.jpg',
+      image: projectSeoGeo,
       highlights: [
         'Entity modeling and structured schema optimization for synthetic answer engines',
         'Framework for earning citations in generative LLM responses and knowledge carousels',
@@ -221,7 +226,7 @@ export const PORTFOLIO_DATA = {
       fullDescription:
         'A series of modern web developments integrating clean user experiences, fast loading performance, technical SEO best practices, and intelligent feature integrations. Engineered to deliver seamless cross-device responsiveness and high conversion efficiency for targeted audience engagement.',
       skills: ['Website Development', 'TypeScript', 'React', 'Technical SEO', 'Performance'],
-      image: '/src/assets/images/project_ai_websites_1793114114479.jpg',
+      image: projectAiWebsites,
       highlights: [
         'Lighthouse-optimized architecture with sub-second initial paint and zero layout shifts',
         'Semantic HTML5 structure and dynamic OpenGraph tagging for maximum discoverability',
@@ -237,7 +242,7 @@ export const PORTFOLIO_DATA = {
       fullDescription:
         'Designed as an editorial-grade digital home, this platform features cinematic entrance transitions, authentic identity preservation, interactive skill categorizations, and direct multi-channel contact pathways including verified LinkedIn, YouTube, and WhatsApp integrations.',
       skills: ['UI/UX Design', 'Motion Architecture', 'Brand Positioning', 'Accessibility'],
-      image: '/src/assets/images/rajiv_kumar_portrait_1793114113158.jpg',
+      image: portraitImage,
       highlights: [
         'Cinematic interactive entrance motion with reduced-motion fallback compliance',
         'Direct instant WhatsApp message dispatch with pre-filled context',
